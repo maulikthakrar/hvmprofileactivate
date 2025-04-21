@@ -74,7 +74,7 @@ class ActivateProfileScreen extends StatelessWidget {
                                   vertical: 5.h,
                                 ),
                                 decoration: ShapeDecoration(
-                                  color: Colors.white.withOpacity(0.3),
+                                  color: Colors.white.withValues(alpha: 0.3),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(9).r,
                                   ),
